@@ -290,7 +290,9 @@ You can think of a CompositionLocal instance as a key to a value in an internall
 
 We first declare a `CompositionLocal<GoogleSignInClient?>` instance as a top-level property associated with a default value of `null`:
 
-`val LocalGoogleSignInClient = staticCompositionLocalOf<GoogleSignInClient?> { null }`
+```
+val LocalGoogleSignInClient = staticCompositionLocalOf<GoogleSignInClient?> { null }
+```
 
 Then, inside the root of our Compose tree (`MyApp`), we initialize a `GoogleSignInClient` instance and wrap the contents of the app with the `CompositionLocalProvider` composable while providing the mapping of the `LocalGoogleSignInClient` CompositionLocal to the initialized client as its argument:
 
