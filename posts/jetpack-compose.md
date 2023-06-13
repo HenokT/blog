@@ -389,3 +389,6 @@ fun PreviewPostCard() {
 In my opinion, Jetpack Compose is a game-changer in Android UI development. Implementation of UI layout and behavior that used to span multiple files and formats can now be expressed as a tree of composable functions where you have all of Kotlin at your disposal. And with previews, you can quickly iterate through the design of your composables until you get something you are happy with.
 
 There are topics that I haven't covered such as Theming, Navigation, Lists, Animation, Gestures, etc but are covered in detail in the [official guide](https://developer.android.com/jetpack/compose/documentation).
+
+
+*Originally published at https://blog.missiondata.com on June 14, 2022.*
